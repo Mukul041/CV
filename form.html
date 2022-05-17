@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <!-- different input types -->
+  <h2>This is HTML forms tutorial</h2>
+  <form action="backend.php">
+    <label for="name"> Name</label>
+    <div>
+      <input type="text" name="myName" id="name">
+    </div>
+    <br>
+    <div>
+      Role: <input type="text" name="myRole">
+    </div>
+    <br>
+    <div>
+      Email: <input type="email" name="myEmail">
+    </div>
+
+    <br>
+    <div>
+      Date: <input type="date" name="myDate">
+    </div>
+    <br>
+    <div>
+      Bonus: <input type="number" name="myBonus">
+    </div>
+    <br>
+    <div>
+      Are you eligible?: <input type="checkbox" name="myEligibility" checked>
+    </div>
+    <br>
+    <div>
+      Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+      Other <input type="radio" name="myGender">
+    </div>
+
+    <br>
+    <div>
+      Write about yourself: <br><textarea name="myText" cols="90" rows="10"></textarea>
+    </div>
+
+    <br>
+    <div>
+      <label for="car">Car</label>
+      <select name="myCar" id="car">
+        <option value="ind">Indica</option>
+        <option value="swf" selected>Swift</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      Choose file:<input type="file" name="" value="">
+    </div><br>
+    <div>
+      Color:<input type="color" name="" value="">
+    </div><br>
+    <div>
+      Choose Date:<input type="datetime-local" name="" value="">
+    </div>
+    <br>
+    <p>For some other types click on link <br><a href="https://www.w3schools.com/html/html_form_input_types.asp"> other Input types </a></p>
+    <div>
+      <input type="submit" value="Submit Now">
+      <input type="reset" value="Reset Now">
+    </div>
+  </form>
+</body>
+
+</html>
